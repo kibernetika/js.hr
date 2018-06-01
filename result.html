@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<title>Home</title>
+	<meta name="description" content="Startups template">
+	<meta name="keywords" content="Startups template">
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.jpg">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.jpg">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.jpg">
+	<link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/lib/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/sweetalert.css" />
+	<!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body id="landing-page" class="landing-page waiting-list-page">
+	<!-- Preloader -->
+	<div class="preloader-mask">
+		<div class="preloader"><div class="spin base_clr_brd"><div class="clip left"><div class="circle"></div></div><div class="gap"><div class="circle"></div></div><div class="clip right"><div class="circle"></div></div></div></div>
+	</div>
+
+	<div id="hero" class="static-header window-height dark-text hero-section waiting-list-version clearfix result-block">
+		<span class="overlay"></span>
+	
+	</div>
+
+	<div class="cart-checkout">
+		<div class="cart-checkout-navigation">
+			<ul class="cart-checkout-navigation-list" role="tablist">
+				<li class="active"><a href="#summary" role="tab" data-toggle="tab" aria-controls="summary" aria-expanded="true" class="cart-checkout-navigation-list-item-link">Summary</a></li>
+				<li><a href="#review-order" role="tab" data-toggle="tab" aria-controls="review-order" aria-expanded="true" class="cart-checkout-navigation-list-item-link">Review Order</a></li>
+				<li><a href="#payment-method" role="tab" data-toggle="tab" aria-controls="payment-method" aria-expanded="true" class="cart-checkout-navigation-list-item-link">Payment Method</a></li>
+				<li><a href="#billing-details" role="tab" data-toggle="tab" aria-controls="billing-details" aria-expanded="true" class="cart-checkout-navigation-list-item-link">Billing Details</a></li>
+			</ul>
+		</div>
+	</div>
+	<section id="payment-block" class="clearfix">
+	<div class="container">
+		<div class="cart-checkout-content tab-content">
+
+			<div id="summary" role="tabpanel" class="tab-pane fade active in" aria-labelledby="summary-tab">
+				<h3 class="uppercase">Info about your boyfriend</h3>
+				<ul class="info-set">
+					<li><i class="fa fa-search"></i> </li>
+					<li><i class="fa fa-facebook"></i> Which fb url he has</li>
+					<li><i class="fa fa-map-marker"></i> Where he lives</li>
+				</ul>
+			</div>
+
+			<div id="review-order" role="tabpanel" class="tab-pane fade " aria-labelledby="review-order-tab">
+				<h3 class="uppercase">How urgent you want the delivery</h3>
+
+				<table id="price" class="cart-list" data-toggle="tooltip" data-placement="bottom" title="Chose your delivery">
+					<thead>
+						<tr>
+							<th class="cart-list-item-meta">Item Name</th>
+							<th class="cart-list-item-price">Item Price</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr class="cart-list-item">
+							<td class="cart-list-item-meta">
+								
+								<div class="cart-list-item-name">
+								<input type="radio" name="optradio" class="r-set">	<span>Standard Service</span>
+								</div>
+							</td>
+							<td class="cart-list-item-price">$100.00</td>
+							
+						</tr>
+						<tr class="cart-list-item">
+							<td class="cart-list-item-meta">
+								
+								<div class="cart-list-item-name">
+									<input type="radio" name="optradio" class="r-set">	<span>Priority Service</span>
+								</div>
+							</td>
+							<td class="cart-list-item-price">$225.00</td>
+							
+						</tr>
+						
+					</tbody>
+
+				</table>
+
+			</div>
+
+			<div id="payment-method" role="tabpanel" class="tab-pane fade" aria-labelledby="payment-method-tab">
+				<h3 class="uppercase">Payment Method</h3>
+
+				<form class="form payment-method-form" data-toggle="tooltip" data-placement="bottom" title="Chose your delivery">
+					<span class="p-method">
+						<input type="radio" name="optradio" class="r-set"> Paypal
+					</span>
+					<span class="p-method">
+						<input type="radio" name="optradio" class=" r-set"> Credit Card
+					</span>
+					<span class="p-method">
+						<input type="radio" name="optradio" class="r-set"> Sofortueberweisung
+					</span>
+				</form>
+			</div>
+
+			<div id="billing-details" role="tabpanel" class="tab-pane fade" aria-labelledby="billing-details-tab">
+				<h3 class="uppercase">Billing Details</h3>
+
+				<form class="form billing-details-form">
+					<fieldset class="form-group">
+						<label for="email" class="required">Email Address</label>
+						<input id="email" type="email" name="email" placeholder="Email address" class="form-control required" data-toggle="tooltip" data-placement="bottom" title="Must contain correct e-mail address">
+					</fieldset>
+
+					<fieldset class="form-group">
+						<label for="first_name" class="required">First Name</label>
+						<input id="first_name" type="text" name="first_name" placeholder="First name" class="form-control required" data-toggle="tooltip" data-placement="bottom" title="Must contain a minimum 3 characters and not contain numbers">
+					</fieldset>
+
+					<fieldset class="form-group">
+						<label for="last_name">Last Name</label>
+						<input id="last_name" type="text" name="last_name" placeholder="Last name" class="form-control" data-toggle="tooltip" data-placement="bottom" title="Must contain a minimum 3 characters and not contain numbers">
+					</fieldset>
+
+					<fieldset class="result">
+					<span class="pull-left">
+						<strong>Purchase Total:</strong>
+						<span class="cart-ammount " data-subtotal="25" data-total="25">$225.00</span></span>
+					<a href="#" class="cart-submit btn btn-solid pull-right">Purchase</a>
+					</fieldset>
+					<div class="clearfix"></div>
+				</form>
+			</div>
+		</div>
+	</div>
+	</section>
+	<div class="clearfix"></div>
+	<hr>
+	<div class="cart-checkout-navigation-controls">
+
+		<form method="post" id="paypal_f" class="form_submit_paypal" action="https://www.sandbox.paypal.com/cgi-bin/websc">
+			<input type="hidden" name="cmd" value="_xclick">
+			<input type="hidden" name="business">
+			<input id="paypalItemName" type="hidden" name="item_name">
+			<input id="paypalQuantity" type="hidden" name="quantity" value="1">
+			<input id="paypalAmmount" type="hidden" name="amount">
+			<input type="hidden" name="no_shipping" value="1">
+			<input type="hidden" name="return">
+			<input type="hidden" name="custom" value="888">
+			<input type="hidden" name="cancel_return">
+			<input type="hidden" name="currency_code" value="EUR">
+			<input type="hidden" name="lc" value="US">
+			<!--<button id="clic" value="click" form="paypal_f" type="submit">clic</button>-->
+		</form>
+
+		<a href="#" class="prev hidden btn btn-outline-color">Previous</a>
+		<a href="#" class="next btn btn-solid">Next step</a>
+	</div>
+
+	<section id="about" class="section about-section align-center dark-text">
+		<div class="container">
+
+			<ul class="nav nav-tabs alt hide">
+				<li class="active"><a href="#third-tab-alt" data-toggle="tab">THIRD TAB</a></li>
+			</ul>
+
+			<div class="tab-content alt">
+
+				<div class="tab-pane active" id="third-tab-alt">
+					<div class="section-content row animated" data-duration="700" data-delay="200" data-animation="fadeInDown">
+						<div class="col-sm-6">
+							<article class="align-center">
+								<i class="howitworks icon icon-alerts-07 highlight"></i>
+							
+								<p class="thin" >Unser Suchauftrag dauert 24 bis 48 Stunden - unsere Experten durchsuchen die Plattformen nach Ihrem Partner. Wir weisen ausdrücklich darauf hin, dass wir in weniger </p>
+							</article>
+							<!--<span class="icon icon-arrows-04"></span>-->
+						</div>
+						<div class="col-sm-6">
+							<article class="align-center">
+								<i class="howitworks icon icon-faces-users-01 highlight"></i>
+								<p class="thin" >Wir garantieren Ihnen dass Ihre Suchanfrage 100% diskret behandelt wird. Ihr Partner wird durch uns niemals informiert….</p>
+							</article>
+							<!--<span class="icon icon-arrows-04"></span>-->
+						</div>
+					</div>
+					<br/>
+					<br/>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<hr class="no-margin" />
+
+
+	<section id="product" class="section product-section align-center dark-text animated" data-animation="fadeInUp" data-duration="500">
+		<div class="container">
+			<div class="section-header">
+				<h2>PRODUCT <span class="highlight">PACKAGES</span></h2>
+				<p class="sub-header">
+					Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
+					<br />dfs sit atmet sit dolor greand fdanrh sdfs
+				</p>
+			</div>
+			<div class="section-content row">
+
+				<div class="col-sm-4">
+					<div class="package-column disabled">
+						<div class="package-title">Individual</div>
+						<div class="package-price">
+							<div class="price"><span class="currency">$</span>19</div>
+							<div class="period">per month</div>
+						</div>
+						<div class="package-detail">
+							<ul class="list-unstyled">
+								<li><strong>Free</strong> Domain</li>
+								<li><strong>Unlimited</strong> Websites</li>
+								<li><strong>Unlimited</strong> Bandwidth</li>
+								<li><strong>Unlimited</strong> Disk Space</li>
+							</ul>
+							<a href="#" class="btn btn-outline-color btn-block">Get started</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="package-column">
+						<div class="package-title">Studio</div>
+						<div class="package-price">
+							<div class="price"><span class="currency">$</span>29</div>
+							<div class="period">subscription</div>
+						</div>
+						<div class="package-detail">
+							<ul class="list-unstyled">
+								<li><strong>Free</strong> Domain</li>
+								<li><strong>Unlimited</strong> Websites</li>
+								<li><strong>Unlimited</strong> Bandwidth</li>
+								<li><strong>Unlimited</strong> Disk Space</li>
+							</ul>
+							<a href="#" class="btn btn-outline-color btn-block">Get started</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="package-column">
+						<div class="package-title">Enterprise</div>
+						<div class="package-price">
+							<div class="price"><span class="currency">$</span>49</div>
+							<div class="period">per month</div>
+						</div>
+						<div class="package-detail">
+							<ul class="list-unstyled">
+								<li><strong>Free</strong> Domain</li>
+								<li><strong>Unlimited</strong> Websites</li>
+								<li><strong>Unlimited</strong> Bandwidth</li>
+								<li><strong>Unlimited</strong> Disk Space</li>
+							</ul>
+							<a href="#" class="btn btn-outline-color btn-block">Get started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="awards" class="section awards-section align-center dark-text animated" data-animation="fadeInDown" data-duration="500">
+		<div class="container">
+			<div class="section-header">
+				<h2><span class="highlight">OUR</span> AWARDS</h2>
+				<p class="sub-header">
+					Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
+					<br />dfs sit atmet sit dolor greand fdanrh sdfs
+				</p>
+			</div>
+			<div class="section-content">
+				<ul class="list-inline logos">
+					<li><a href="#" target="_blank"><img src="assets/img/logos/award-5.jpg" alt="mashable" /></a></li>
+					<li><a href="#" target="_blank"><img src="assets/img/logos/award-3.jpg" alt="virgin" /></a></li>
+					<li><a href="#" target="_blank"><img src="assets/img/logos/award-4.jpg" alt="forbes" /></a></li>
+					<li><a href="#" target="_blank"><img src="assets/img/logos/award-1.jpg" alt="microsoft" /></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section id="feedback" class="section feedback-section align-center light-text">
+		<div class="container animated" data-animation="fadeInDown" data-duration="500">
+			<div class="section-header">
+				<h2>WHAT <span class="highlight">CLIENTS</span> SAY</h2>
+			</div>
+			<div class="section-content">
+				<!-- BEGIN SLIDER CONTENT -->
+				<div class="col-sm-10 col-sm-offset-1">
+					<div class="flexslider testimonials-slider align-center">
+						<ul class="slides">
+							<li>
+								<div class="testimonial align-center clearfix">
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non bibendum metus. Aenean vel rutrum velit. Duis aliquet augue non augue volutpat, ut viverra est sagittis. Duis elementum mi mauris, nec rhoncus dolor consectetur vitae lorem ipsum.</blockquote>
+								</div>
+							</li>
+							<li>
+								<div class="testimonial align-center clearfix">
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non bibendum metus. Aenean vel rutrum velit. Duis aliquet augue non augue volutpat, ut viverra est sagittis. Duis elementum mi mauris, nec rhoncus dolor consectetur vitae lorem ipsum.</blockquote>
+								</div>
+							</li>
+							<li>
+								<div class="testimonial align-center clearfix">
+									<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non bibendum metus. Aenean vel rutrum velit. Duis aliquet augue non augue volutpat, ut viverra est sagittis. Duis elementum mi mauris, nec rhoncus dolor consectetur vitae lorem ipsum.</blockquote>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- END SLIDER -->
+			</div>
+		</div>
+	</section>
+
+	<section id="feedback-controls" class="section feedback-controls-section align-center light-text animated" data-animation="fadeInDown" data-duration="500">
+		<div class="container">
+			<div class="col-md-10 col-md-offset-1">
+				<!-- BEGIN CONTROLS -->
+				<div class="flex-manual">
+					<div class="col-xs-12 col-sm-4 wrap">
+						<div class="switch flex-active">
+							<img alt="client" src="assets/img/people/profile-1.jpg" class="sm-pic img-circle pull-left" width="69" height="70">
+							<p>
+								<span class="highlight">AMY WARNER</span><br/>Investor at <span class="highlight">Pear Inc.</span>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 wrap">
+						<div class="switch pull-left">
+							<img alt="client" src="assets/img/people/profile-2.jpg" class="sm-pic img-circle pull-left" width="69" height="70">
+							<p>
+								<span class="highlight">JOHN DOESOME</span><br/>Accountant at <span class="highlight">Vell Inc.</span>
+							</p>
+						</div>
+					</div>
+
+					<div class="col-xs-12 col-sm-4 wrap">
+						<div class="switch">
+							<img alt="client" src="assets/img/people/profile-1.jpg" class="sm-pic img-circle pull-left" width="68" height="69">
+							<p>
+								<span class="highlight">PETER MOOSOME</span><br/>VP Marketing at <span class="highlight">Footbook</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- END CONTROLS -->
+			</div>
+		</div>
+	</section>
+
+	<section id="team" class="section team-section align-center dark-text">
+		<div class="container">
+			<div class="section-header">
+				<h2>BEHIND <span class="highlight">THE</span> SCENES</h2>
+				<p class="sub-header">
+					Lorem ipsum dolor sit atmet sit dolor greand fdanrh s
+					<br>dfs sit atmet sit dolor greand fdanrh sdfs
+				</p>
+				<p>In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret. Sed virtutem ipsam inchoavit, nihil<br/> ampliusuma. Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae<br/> qui non vident, nihilamane umquam magnum ac cognitione. In his rest gestiret. Sed ipsam inchoavit, nihil ampliusuma.<br/> Scien tiam pollicentur, quam non erat mirum sapientiae lorem cupido patria esse cariorem. Quae qui non vident,<br/> nihilamane umquam magnum ac cognitione.</p>
+			</div>
+			<div class="section-content row">
+				<div class="col-md-3 col-sm-3 col-xs-6 animated" data-animation="fadeInDown" data-duration="500">
+					<div class="team-member">
+						<div class="photo-wrapper">
+							<div class="overlay-wrapper">
+								<img src="assets/img/people/team-1.jpg" alt="">
+								<div class="overlay-content">
+									<div class="text-wrapper">
+										<div class="text-container">
+											<p>Mike has worked with CARE USA, for 12 years holding positions such as Deputy Country Director to Director of Programs and Information Systems.</p>
+										</div>
+									</div>
+									<ul class="socials-block">
+										<li><a href="#" class="email" title="Email"><i class="fa fa-envelope-o"></i></a></li>
+										<li><a href="#" class="twitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="facebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="skype" title="Skype"><i class="fa fa-skype"></i></a></li>
+										<li><a href="#" class="linked_in" title="Linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<h5 class="name">Mike Bolder</h5>
+						<p class="position">Developer</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-xs-6 animated" data-animation="fadeInUp" data-delay="200" data-duration="500">
+					<div class="team-member">
+						<div class="photo-wrapper">
+							<div class="overlay-wrapper">
+								<img src="assets/img/people/team-2.jpg" alt="">
+								<div class="overlay-content">
+									<div class="text-wrapper">
+										<div class="text-container">
+											<p>Mike has worked with CARE USA, for 12 years holding positions such as Deputy Country Director to Director of Programs and Information Systems.</p>
+										</div>
+									</div>
+									<ul class="socials-block align-center">
+										<li><a href="#" class="skype" title="Skype"><i class="fa fa-skype"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<h5 class="name">Mike Bolder</h5>
+						<p class="position">Developer</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-xs-6 animated" data-animation="fadeInDown" data-delay="400" data-duration="500">
+					<div class="team-member">
+						<div class="photo-wrapper">
+							<div class="overlay-wrapper">
+								<img src="assets/img/people/team-3.jpg" alt="">
+								<div class="overlay-content">
+									<div class="text-wrapper">
+										<div class="text-container">
+											<p>Ellen has over 13 years of experience in development projects as a senior consultant and project manager in the areas of project management, fund and board development, strategic & financial planning, monitoring & evaluation.</p>
+										</div>
+									</div>
+									<ul class="socials-block align-center">
+										<li><a href="#" class="email" title="Email"><i class="fa fa-envelope-o"></i></a></li>
+										<li><a href="#" class="twitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<h5 class="name">Mike Bolder</h5>
+						<p class="position">Developer</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-3 col-xs-6 animated" data-animation="fadeInUp" data-delay="600" data-duration="500">
+					<div class="team-member">
+						<div class="photo-wrapper">
+							<div class="overlay-wrapper">
+								<img src="assets/img/people/team-4.jpg" alt="">
+								<div class="overlay-content">
+									<div class="text-wrapper">
+										<div class="text-container">
+											<p>Mike has worked with CARE USA for 12 years.</p>
+										</div>
+									</div>
+									<ul class="socials-block">
+										<li><a href="#" class="email" title="Email"><i class="fa fa-envelope-o"></i></a></li>
+										<li><a href="#" class="twitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+										<li><a href="#" class="facebook" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+										<li><a href="#" class="skype" title="Skype"><i class="fa fa-skype"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<h5 class="name">Mike Bolder</h5>
+						<p class="position">Developer</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="guarantee" class="long-block light-text guarantee-section">
+		<div class="container">
+			<div class="col-md-12 col-lg-9">
+				<i class="icon icon-seo-icons-24 pull-left"></i>
+				<article class="pull-left">
+					<h2>LAUNCH YOUR STARTUP NOW!</h2>
+					<p class="thin">In his igitur partibus duabus nihil erat, quod Zeno commuta rest gestiret.</p>
+				</article>
+			</div>
+
+			<div class="col-md-12 col-lg-3">
+				<a href="http://themeforest.net/item/startuply-responsive-multipurpose-landing-page/7953388" class="btn btn-outline" style="margin-top: 7px;">Get this template</a>
+			</div>
+		</div>
+	</section>
+
+	<footer id="footer" class="footer light-text">
+		<div class="container">
+			<div class="footer-content row">
+				<div class="col-sm-4 col-xs-12">
+					<div class="logo-wrapper">
+						<img width="130" height="31" src="assets/img/logo-white.png" alt="logo" />
+					</div>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco. Qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Nisi ut aliquid ex ea commodi consequatur?</p>
+					<p><strong>John Doeson, Founder</strong>.</p>
+				</div>
+				<div class="col-sm-5 social-wrap col-xs-12">
+					<strong class="heading">Social Networks</strong>
+					<ul class="list-inline socials">
+						<li><a href="#"><span class="icon icon-socialmedia-08"></span></a></li>
+						<li><a href="#"><span class="icon icon-socialmedia-09"></span></a></li>
+						<li><a href="#"><span class="icon icon-socialmedia-16"></span></a></li>
+						<li><a href="#"><span class="icon icon-socialmedia-04"></span></a></li>
+					</ul>
+					<ul class="list-inline socials">
+						<li><a href="#"><span class="icon icon-socialmedia-07"></span></a></li>
+						<li><a href="#"><span class="icon icon-socialmedia-16"></span></a></li>
+						<li><a href="#"><span class="icon icon-socialmedia-09"></span></a></li>
+						<li><a href="#"><span class="icon icon-socialmedia-08"></span></a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3 col-xs-12">
+					<strong class="heading">Our Contacts</strong>
+					<ul class="list-unstyled">
+						<li><span class="icon icon-chat-messages-14"></span><a href="mailto:info@startup.ly">info@startup.ly</a></li>
+						<li><span class="icon icon-seo-icons-34"></span>2901 Marmora road, Glassgow, Seattle, WA 98122-1090</li>
+						<li><span class="icon icon-seo-icons-17"></span>1 - 234-456-7980</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">startup.ly 2014. All rights reserved.</div>
+	</footer>
+
+	<div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+
+	<!--[if lt IE 9]>
+		<script type="text/javascript" src="assets/js/jquery-1.11.3.min.js?ver=1"></script>
+	<![endif]-->
+	<!--[if (gte IE 9) | (!IE)]><!-->
+		<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js?ver=1"></script>
+	<!--<![endif]-->
+	<script type="text/javascript" src="assets/js/sweetalert.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.plugin.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.countdown.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="assets/js/toastr.min.js"></script>
+	<script type="text/javascript" src="assets/js/startuply.js"></script>
+	<script type="text/javascript" src="assets/js/paypal_api.js"></script>
+	<script type="text/javascript" src="assets/js/validate_result.js"></script>
+</body>
+</html>
