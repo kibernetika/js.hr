@@ -6344,6 +6344,7 @@ input {
 }
 .heading-block.align-center.centered-block .container .highlight {
   font-weight: 600;
+  text-shadow: white 0 0 2px;
 }
 .heading-block.align-center.centered-block .signup-wrapper.align-center > .row {
   text-align: center;
