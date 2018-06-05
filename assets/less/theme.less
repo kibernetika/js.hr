@@ -215,7 +215,7 @@
 
     &.register-version {
         background-image: url("@{img-path}background/smb_owner.jpg");
-
+        background-size: cover;
         .signup-wrapper {
             margin-top: 20px;
             width: auto;
@@ -407,7 +407,7 @@
 .features-section {
     margin-bottom: 50px;
     padding: 0 0 30px;
-    background-color: @white-alt;
+    background-image: url("@{img-path}/background/feature.jpg");
 }
 
 
@@ -632,8 +632,7 @@
 
     .guarantee-section,
     .features-section {
-        background-color: @white-alt;
-
+        background-image: url("@{img-path}/background/feature.jpg");
         .fa,
         .icon {
             &:extend(.base-clr-txt);
@@ -652,7 +651,57 @@
     }
 }
 
+//My styles
 
+#hero{
+    .heading-block>.container{
+        width: auto;
+        display: inline-block;
+    }
+}
+.fixed-menu {
+    .navigation.navigation-header {
+        background-color: @body-color;
+    }
+}
+
+input{
+    background-color: @body-color !important;
+}
+
+.heading-block.align-center.centered-block{
+    >.container {
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .form-register{
+        background-color: transparent;
+    }
+}
+
+#feedback{
+    .highlight {
+        color: @body-color;
+    }
+    .content blockquote{
+        font-weight: 600;
+    }
+}
+
+.footer {
+    padding-bottom: 5px;
+    .footer-content {
+        .icon {
+            color: @text-white-alt !important;
+        }
+    }
+    img{
+        max-width:80%;
+        max-height:80%;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+}
+//end my
 
 @media (min-width: @screen-lg-min) {
     .static-header {
