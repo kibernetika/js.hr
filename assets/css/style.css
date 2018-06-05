@@ -866,7 +866,7 @@ blockquote:after {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #bf9440;
+  background-color: #f7f7f7;
   z-index: 10000;
   height: 100%;
 }
@@ -5014,6 +5014,7 @@ header {
 }
 .navigation-bar.navigation-bar-left a {
   font-weight: 600;
+  text-shadow: #fff 0 0 2px;
 }
 body.always-mobile {
   -webkit-transition: right 0.4s ease;
@@ -6322,8 +6323,12 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
   width: auto;
   display: inline-block;
 }
+#hero .form-register {
+  margin-top: 5px;
+}
 .fixed-menu .navigation.navigation-header {
   background-color: #ffffff;
+  text-shadow: white 0 0 2px;
 }
 input {
   background-color: #ffffff !important;
@@ -6334,11 +6339,35 @@ input {
 .heading-block.align-center.centered-block .form-register {
   background-color: transparent;
 }
+.heading-block.align-center.centered-block .container {
+  color: #fff;
+}
+.heading-block.align-center.centered-block .container .highlight {
+  font-weight: 600;
+}
+.heading-block.align-center.centered-block .signup-wrapper.align-center > .row {
+  text-align: center;
+}
 #feedback .highlight {
   color: #ffffff;
 }
 #feedback .content blockquote {
   font-weight: 600;
+}
+#feedback .section-content li > .testimonial.align-center {
+  color: #fff;
+}
+#feedback-controls {
+  background-color: #7b3832;
+  color: #c39a4b;
+}
+#feedback-controls .flex-active,
+#feedback-controls .highlight {
+  color: #fff;
+}
+#feedback-controls .flex-active p,
+#feedback-controls .highlight p {
+  color: #c39a4b !important;
 }
 .footer {
   padding-bottom: 5px;
@@ -6350,6 +6379,11 @@ input {
   max-width: 80%;
   max-height: 80%;
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.list-inline.logos img {
+  max-width: 150px;
+  max-height: 71px;
 }
 @media (min-width: 1200px) {
   .static-header .video-container {
@@ -6443,7 +6477,7 @@ input {
   }
   .register-version .signup-wrapper .form-group {
     margin-right: 2%;
-    width: 32%;
+    width: 48%;
   }
   .register-version .signup-wrapper .form-group .form-control {
     width: 100%;

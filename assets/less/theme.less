@@ -658,10 +658,15 @@
         width: auto;
         display: inline-block;
     }
+
+    .form-register{
+        margin-top: 5px;
+    }
 }
 .fixed-menu {
     .navigation.navigation-header {
         background-color: @body-color;
+        text-shadow: white 0 0 2px;
     }
 }
 
@@ -676,6 +681,15 @@ input{
     .form-register{
         background-color: transparent;
     }
+    .container{
+        color: #fff;
+        .highlight{
+            font-weight: 600;
+        }
+    }
+    .signup-wrapper.align-center>.row{
+        text-align: center;
+    }
 }
 
 #feedback{
@@ -684,6 +698,20 @@ input{
     }
     .content blockquote{
         font-weight: 600;
+    }
+    .section-content li>.testimonial.align-center{
+        color: #fff;
+    }
+}
+
+#feedback-controls{
+    background-color: @text-black-alt;
+    color: @text-white;
+    .flex-active, .highlight{
+        color: #fff;
+        p{
+            color: @text-white !important;
+        }
     }
 }
 
@@ -701,6 +729,12 @@ input{
         border-radius: 10px;
     }
 }
+
+.list-inline.logos img{
+    max-width: 150px;
+    max-height: 71px;
+}
+
 //end my
 
 @media (min-width: @screen-lg-min) {
@@ -822,7 +856,7 @@ input{
 
             .form-group {
                 margin-right: 2%;
-                width: 32%;
+                width: 48%;
 
                 .form-control {
                     width: 100%;
