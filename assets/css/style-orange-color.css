@@ -620,7 +620,7 @@ input[type=submit]:not(.default).btn-no-border.pressed,
 div.bg-low-poly,
 footer.bg-low-poly,
 section.bg-low-poly {
-	background-image: url("../img/background/low_poly_background.jpg");
+	background-image: url("../img/background/low_poly_background.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 }
@@ -4172,7 +4172,7 @@ td.cart-list-item-price {
 }
 
 .ytp-player-background.no-video-bg {
-	background: transparent url('../img/background/low_poly_background.jpg') top center no-repeat;
+	background: transparent url('../img/background/low_poly_background.png') top center no-repeat;
 }
 
 .ytp-player-background.no-video-bg .video-conrols {
@@ -4380,7 +4380,7 @@ td.cart-list-item-price {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background: #6f186c url("../img/background/low_poly_background.jpg") top center no-repeat;
+	background: #6f186c url("../img/background/low_poly_background.png") top center no-repeat;
 }
 
 .navigation-header .navigation-brand {
@@ -4977,7 +4977,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-size: cover;
 	padding: 0 0 30px;
 	font-weight: 300;
-	background-image: url('../img//background/low_poly_background.jpg');
+	background-image: url('../img//background/low_poly_background.png');
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
@@ -5414,7 +5414,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-moz-background-size: cover;
 	background-size: cover;
 	position: relative;
-	background-image: url("../img/background/low_poly_background.jpg");
+	background-image: url("../img/background/low_poly_background.png");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
@@ -5636,7 +5636,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .features-section {
 	margin-bottom: 50px;
 	padding: 0 0 30px;
-	background-image: url("../img//background/feature.jpg");
+	background-image: url("../img//background/low_poly_background.png");
 }
 
 .features-list-section article {
@@ -5669,7 +5669,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-image: url('../img/background/low_poly_background.jpg');
+	background-image: url('../img/background/low_poly_background.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -5700,7 +5700,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-image: url('../img/background/low_poly_background.jpg');
+	background-image: url('../img/background/low_poly_background.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -5779,7 +5779,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-moz-background-size: cover;
 	background-size: cover;
 	position: relative;
-	background: url("../img/background/low_poly_background.jpg") no-repeat center center;
+	background: url("../img/background/low_poly_background.png") no-repeat center center;
 	background-attachment: fixed;
 }
 
@@ -5831,11 +5831,20 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 
 .color-landing-page .guarantee-section,
 .color-landing-page .features-section {
-	background-image: url("../img//background/feature.jpg");
+	background-image: url("../img//background/low_poly_background.png");
 }
 
 .waiting-list-page .navigation-header .navigation-brand .brand-logo .logo {
 	background-image: url("../img/logo-inverted.png");
+}
+
+.list-inline.logos img {
+	max-width: 150px;
+	max-height: 71px;
+}
+
+.light-text {
+	color: #7b3832;
 }
 
 #hero .heading-block > .container {
@@ -5877,8 +5886,11 @@ input {
 	text-align: center;
 }
 
-#feedback .highlight {
-	color: #ffffff;
+#features {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 #feedback .content blockquote {
@@ -5886,7 +5898,7 @@ input {
 }
 
 #feedback .section-content li > .testimonial.align-center {
-	color: #fff;
+	color: #7b3832;
 }
 
 #feedback-controls {
@@ -5904,24 +5916,25 @@ input {
 	color: #c39a4b !important;
 }
 
+#guarantee {
+	color: #c39a4b !important;
+}
+
 .footer {
 	padding-bottom: 5px;
 }
 
 .footer .footer-content .icon {
-	color: #c39a4b !important;
+	color: #7b3832 !important;
 }
 
 .footer img {
 	max-width: 80%;
 	max-height: 80%;
-	background-color: rgba(0, 0, 0, 0.3);
-	border-radius: 10px;
 }
 
-.list-inline.logos img {
-	max-width: 150px;
-	max-height: 71px;
+#guarantee .light-text {
+	color: #c39a4b;
 }
 
 @media (min-width: 768px) {
@@ -6077,11 +6090,16 @@ body:not(.always-mobile) .white-dropdown .navigation-bar > .dropdown:not(.featur
 }
 
 .navigation-header .navigation-brand,
+.navigation-header .navigation-bar {
+	display: block;
+}
+
+.navigation-header .navigation-brand > li,
 .navigation-header .navigation-bar > li {
 	padding: 0;
 }
 
-.navigation-header .navigation-brand.featured,
+.navigation-header .navigation-brand > li.featured,
 .navigation-header .navigation-bar > li.featured {
 	padding: 0;
 }
@@ -6329,6 +6347,10 @@ body:not(.always-mobile) .navigation-header .navigation-brand .brand-logo {
 	height: 425px;
 }
 
+.navigation-bar.navigation-bar-left {
+	display: flex;
+}
+
 .video-wrapper .container {
 	padding: 24px 0 0;
 }
@@ -6387,6 +6409,10 @@ body:not(.always-mobile) .navigation-header .navigation-brand .brand-logo {
 
 .footer .list-inline li .icon {
 	font-size: 34px;
+}
+
+.navigation-bar.navigation-bar-left {
+	display: flex;
 }
 
 .register-version .signup-wrapper {
@@ -7438,6 +7464,18 @@ body.collapsed .fixed-menu .navigation-header {
 
 .social-wrap > ul {
 	float: left;
+}
+
+.navigation-bar.navigation-bar-left {
+	display: block;
+}
+
+footer {
+	text-align: center;
+}
+
+footer .logo-wrapper img {
+	max-height: 100px;
 }
 
 blockquote:before {

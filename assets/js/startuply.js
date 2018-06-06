@@ -7,7 +7,7 @@
 
 var Startuply;
 
-;(function($){
+(function($){
 
     $(document).on('ready', function () {
         Startuply.init();

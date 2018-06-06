@@ -21,7 +21,7 @@
     &.background-header {
         .background-size(cover);
 
-        background: #6f186c url("@{img-path}background/low_poly_background.jpg") top center no-repeat;
+        background: #6f186c url("@{img-path}background/low_poly_background.png") top center no-repeat;
     }
 
     .navigation-brand {
@@ -602,8 +602,6 @@ body.always-mobile {
     }
 }
 
-
-
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
     .navigation-header .navigation-brand {
         margin: 2px 30px 0 0;
@@ -636,11 +634,14 @@ body.always-mobile {
         }
 
         .navigation-brand,
-        .navigation-bar > li {
-            padding: 0;
-
-            &.featured {
+        .navigation-bar {
+            display: block;
+            > li {
                 padding: 0;
+
+                &.featured {
+                    padding: 0;
+                }
             }
         }
     }

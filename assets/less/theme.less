@@ -182,7 +182,7 @@
     .background-size(cover);
 
     position: relative;
-    background-image: url("@{img-path}background/low_poly_background.jpg");
+    background-image: url("@{img-path}background/low_poly_background.png");
     background-repeat: no-repeat;
     background-position: top center;
     background-attachment: fixed;
@@ -407,7 +407,7 @@
 .features-section {
     margin-bottom: 50px;
     padding: 0 0 30px;
-    background-image: url("@{img-path}/background/feature.jpg");
+    background-image: url("@{img-path}/background/low_poly_background.png");
 }
 
 
@@ -445,7 +445,7 @@
 .newsletter-section {
     .background-size(cover);
 
-    background-image: url('@{img-path}background/low_poly_background.jpg');
+    background-image: url('@{img-path}background/low_poly_background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -481,7 +481,7 @@
 .feedback-section {
     .background-size(cover);
 
-    background-image: url('@{img-path}background/low_poly_background.jpg');
+    background-image: url('@{img-path}background/low_poly_background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -569,7 +569,7 @@
         .background-size(cover);
 
         position: relative;
-        background: url("@{img-path}background/low_poly_background.jpg") no-repeat center center;
+        background: url("@{img-path}background/low_poly_background.png") no-repeat center center;
         background-attachment: fixed;
     }
 }
@@ -632,7 +632,7 @@
 
     .guarantee-section,
     .features-section {
-        background-image: url("@{img-path}/background/feature.jpg");
+        background-image: url("@{img-path}/background/low_poly_background.png");
         .fa,
         .icon {
             &:extend(.base-clr-txt);
@@ -652,6 +652,15 @@
 }
 
 //My styles
+
+.list-inline.logos img{
+    max-width: 150px;
+    max-height: 71px;
+}
+
+.light-text{
+    color: @text-color;
+}
 
 #hero{
     .heading-block>.container{
@@ -693,15 +702,19 @@ input{
     }
 }
 
+#features{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 #feedback{
-    .highlight {
-        color: @body-color;
-    }
     .content blockquote{
         font-weight: 600;
     }
     .section-content li>.testimonial.align-center{
-        color: #fff;
+        color: @text-black-alt;
     }
 }
 
@@ -716,26 +729,29 @@ input{
     }
 }
 
+#guarantee{
+    color: @text-white-alt !important;
+}
+
 .footer {
     padding-bottom: 5px;
+
     .footer-content {
         .icon {
-            color: @text-white-alt !important;
+            color: @text-color !important;
         }
     }
     img{
         max-width:80%;
         max-height:80%;
-        background-color: rgba(0, 0, 0, 0.3);
-        border-radius: 10px;
+        //background-color: rgba(0, 0, 0, 0.3);
+        //border-radius: 10px;
     }
 }
 
-.list-inline.logos img{
-    max-width: 150px;
-    max-height: 71px;
+#guarantee .light-text{
+    color: @text-white-alt;
 }
-
 //end my
 
 @media (min-width: @screen-lg-min) {
@@ -747,6 +763,11 @@ input{
 }
 
 @media (max-width: @screen-md-max) {
+
+    .navigation-bar.navigation-bar-left{
+        display: flex;
+    }
+
     .video-wrapper .container {
         padding: 24px 0 0;
 
@@ -795,6 +816,11 @@ input{
 }
 
 @media (max-width: @screen-md-min) and (orientation: portrait) {
+
+    .navigation-bar.navigation-bar-left{
+        display: flex;
+    }
+
     .register-version .signup-wrapper {
         padding-left: 0;
         padding-right: 0;
@@ -929,6 +955,18 @@ input{
 }
 
 @media (max-width: @screen-xs-max) {
+
+    .navigation-bar.navigation-bar-left{
+        display: block;
+    }
+
+    footer {
+        text-align: center;
+        .logo-wrapper img{
+            max-height: 100px;
+        }
+    }
+
     blockquote {
         &:before {
             top: 10%;
@@ -1098,6 +1136,7 @@ input{
 }
 
 @media (max-width: @screen-xs-middle) {
+
     .video-version .heading-block:not(.centered-block) {
         padding-top: 23%;
     }

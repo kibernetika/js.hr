@@ -1,5 +1,5 @@
 <?php
-$mail = 'sg.pavel.d@gmail.com';
+$mail = 'deni.ecybernetics@gmail.com';
 
 if((isset($_POST['mail'])&&$_POST['mail']!="")&&
     (isset($_POST['nameCustomer'])&& $_POST['nameCustomer'] != '')&&
