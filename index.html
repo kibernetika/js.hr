@@ -354,7 +354,7 @@
 				<form class="form mailchimp-form subscribe-form" style="padding-top: 10px;" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
 					<div class="form-group form-inline">
 						<input size="15" type="text" class="form-control required" name="FULLNAME" placeholder="Ваше ім`я" />
-						<input size="25" type="email" class="form-control required" name="EMAIL" placeholder="Ваша електронна пошта" />
+						<input size="15" type="email" class="form-control required" name="EMAIL" placeholder="Ваш email" />
 						<input type="submit" class="btn btn-outline" value="Підписатись" />
 						<span class="response"><? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?></span>
 					</div>

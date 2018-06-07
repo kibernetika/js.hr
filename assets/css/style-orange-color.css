@@ -5636,7 +5636,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 .features-section {
 	margin-bottom: 50px;
 	padding: 0 0 30px;
-	background-image: url("../img//background/low_poly_background.png");
+	background-image: url("../img//background/gold.jpg");
 }
 
 .features-list-section article {
@@ -5922,6 +5922,7 @@ input {
 
 .footer {
 	padding-bottom: 5px;
+	background-image: none;
 }
 
 .footer .footer-content .icon {
