@@ -351,12 +351,12 @@
 				</article>
 			</div>
 			<div class="col-sm-12 col-lg-7 animated" data-animation="fadeInRight" data-duration="500">
-				<form class="form mailchimp-form subscribe-form" style="padding-top: 10px;" action="<?=$_SERVER['PHP_SELF']; ?>" method="post">
+				<form class="form mailchimp-form subscribe-form" style="padding-top: 10px;" action="assets/php/mail_send.php" method="post">
 					<div class="form-group form-inline">
-						<input size="15" type="text" class="form-control required" name="FULLNAME" placeholder="Ваше ім`я" />
-						<input size="15" type="email" class="form-control required" name="EMAIL" placeholder="Ваш email" />
-						<input type="submit" class="btn btn-outline" value="Підписатись" />
-						<span class="response"><? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?></span>
+						<input size="15" type="text" class="form-control required" name="fullname" placeholder="Ваше ім`я" data-toggle="tooltip" data-placement="bottom" title="Мінімум дві букви"/>
+						<input size="15" type="email" class="form-control required" name="email" placeholder="Ваш email" data-toggle="tooltip" data-placement="bottom" title="Введіть корректний email" />
+						<input id="send-mail" type="submit" class="btn btn-outline" value="Підписатись" />
+						<!--<span class="response"><? require_once('assets/mailchimp/inc/store-address.php'); if($_GET['submit']){ echo storeAddress(); } ?></span>-->
 					</div>
 				</form>
 			</div>
