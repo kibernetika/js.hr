@@ -4390,7 +4390,7 @@ td.cart-list-item-price {
 }
 
 .navigation-header .navigation-brand .brand-logo {
-	width: 130px;
+	width: 170px;
 }
 
 .navigation-header .navigation-brand .brand-logo .logo {
@@ -4399,7 +4399,7 @@ td.cart-list-item-price {
 	background-size: contain;
 	display: block;
 	height: 68px;
-	background-image: url("../img/logo.png");
+	background-image: url("../img/HR_site.png");
 	background-repeat: no-repeat;
 	background-position: left center;
 	line-height: 68px;
@@ -5008,13 +5008,17 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.36);
 }
 
+.footer .time {
+	text-align: left;
+}
+
 .footer .list-inline {
 	text-align: center;
 	margin: 0 auto;
 }
 
 .footer .list-inline li {
-	padding: 0 15px 15px;
+	padding: 0 10px 10px;
 }
 
 .footer .list-inline li a:hover {
@@ -5023,7 +5027,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 
 .footer .list-inline li .icon {
-	font-size: 50px;
+	font-size: 35px;
 }
 
 .footer .list-unstyled li {
@@ -5418,6 +5422,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
+	background-size: auto;
 }
 
 .static-header .heading-block {
@@ -5447,7 +5452,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 
 .static-header.register-version {
-	background-image: url("../img/background/smb_owner.jpg");
+	background-image: url("../img/background/IMG_6275-01.jpg");
 	background-size: cover;
 }
 
@@ -5669,7 +5674,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-image: url('../img/background/low_poly_background.png');
+	background-image: url('../img/background/HR_fon.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
