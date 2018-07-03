@@ -173,7 +173,7 @@ body {
 	font-family: "PT Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 400;
-	color: #7b3832;
+	color: #d31225;
 	line-height: 1.5625;
 }
 
@@ -307,7 +307,7 @@ a:active,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #572723;
+	color: #a40e1d;
 }
 
 span {
@@ -414,7 +414,7 @@ input[type=password],
 .fixed-menu .navigation-header.white-dropdown .navigation-bar.navigation-bar-left > li.active:not(.featured) > a,
 .navigation-header.white-header .btn.btn-outline,
 .form-register.form-register-small .form-control {
-	border-color: #7b3832;
+	border-color: #d31225;
 }
 
 .base-clr-bg,
@@ -501,7 +501,7 @@ input[type=submit]:not(.default).btn-outline-color.pressed,
 .color-landing-page .newsletter-section,
 .color-landing-page .feedback-section,
 .color-landing-page .footer {
-	background-color: #7b3832;
+	background-color: #d31225;
 }
 
 .base-clr-txt,
@@ -603,17 +603,17 @@ input[type=submit]:not(.default).btn-no-border.pressed,
 .package-column.featured > .package-detail .btn.btn-outline-color:hover,
 .package-column:hover > .package-detail .btn.btn-outline-color:focus,
 .package-column.featured > .package-detail .btn.btn-outline-color:focus {
-	color: #7b3832;
+	color: #d31225;
 }
 
 ::selection {
 	color: #c39a4b;
-	background-color: #7b3832;
+	background-color: #d31225;
 }
 
 ::-moz-selection {
 	color: #c39a4b;
-	background-color: #7b3832;
+	background-color: #d31225;
 }
 
 .bg-low-poly,
@@ -4415,7 +4415,7 @@ td.cart-list-item-price {
 }
 
 .navigation-header .navigation-brand .brand-logo a {
-	color: #7b3832;
+	color: #d31225;
 }
 
 .navigation-header .navigation-toggle {
@@ -4498,7 +4498,7 @@ td.cart-list-item-price {
 	font-family: "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	text-transform: uppercase;
-	color: #7b3832;
+	color: #d31225;
 	line-height: 1;
 	border-bottom: 2px solid transparent;
 }
@@ -4942,7 +4942,7 @@ body.always-mobile .navigation-header.white-dropdown .navigation-bar > li.dropdo
 body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar > li.dropdown:not(:hover) > a,
 body.always-mobile .navigation-header.white-dropdown .navigation-bar > li:not(.featured) > a:not(:hover),
 body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar > li:not(.featured) > a:not(:hover) {
-	color: #7b3832;
+	color: #d31225;
 }
 
 body.always-mobile .navigation-header.white-dropdown .navigation-bar > li:not(.featured) > a,
@@ -5700,7 +5700,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-image: url('../img/background/low_poly_background.png');
+	background-image: none;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
@@ -5844,7 +5844,7 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 }
 
 .light-text {
-	color: #7b3832;
+	color: #d31225;
 }
 
 #hero .heading-block > .container {
@@ -5898,11 +5898,11 @@ input {
 }
 
 #feedback .section-content li > .testimonial.align-center {
-	color: #7b3832;
+	color: #d31225;
 }
 
 #feedback-controls {
-	background-color: #7b3832;
+	background-color: #d31225;
 	color: #c39a4b;
 }
 
@@ -5926,7 +5926,7 @@ input {
 }
 
 .footer .footer-content .icon {
-	color: #7b3832 !important;
+	color: #d31225 !important;
 }
 
 .footer img {
@@ -5966,7 +5966,7 @@ input {
 .product-list.material-view .product.col-md-6:not(:hover) .product-title a,
 .product-list.material-view .product.col-md-4:not(:hover) .product-title a,
 .product-list.material-view .product.col-md-3:not(:hover) .product-title a {
-	color: #7b3832;
+	color: #d31225;
 }
 
 .product-list.material-view .product.col-md-6 .product-controls .btn,
@@ -6041,7 +6041,7 @@ body:not(.always-mobile) .navigation-bar .dropdown-menu {
 
 .navigation-header.white-header .navigation-bar > li:not(.featured) > a:not(:hover),
 .fixed-menu .navigation-header .navigation-bar > li:not(.featured) > a:not(:hover) {
-	color: #7b3832;
+	color: #d31225;
 }
 
 .navigation-header.white-header .navigation-bar.navigation-bar-left > li.active > a,
@@ -7409,7 +7409,7 @@ body.collapsed .fixed-menu .navigation-header {
 .fixed-menu .navigation-header.white-dropdown .navigation-bar > li.dropdown:not(:hover) > a,
 .navigation-header.white-dropdown .navigation-bar > li:not(.featured) > a:not(:hover),
 .fixed-menu .navigation-header.white-dropdown .navigation-bar > li:not(.featured) > a:not(:hover) {
-	color: #7b3832;
+	color: #d31225;
 }
 
 .navigation-header.white-dropdown .navigation-bar > li:not(.featured) > a,
