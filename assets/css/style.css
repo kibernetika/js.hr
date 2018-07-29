@@ -5947,6 +5947,14 @@ ul.socials.list-inline {
 	margin-top: 50px;
 }
 
+img.icon-custom{
+	width: 46px;
+}
+
+img.icon-custom2{
+	width: 81px;
+}
+
 @media (min-width: 768px) {
 
 .team-member:hover .overlay-wrapper:before {
