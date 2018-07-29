@@ -5947,12 +5947,19 @@ ul.socials.list-inline {
 	margin-top: 50px;
 }
 
-img.icon-custom{
+.icon-custom {
 	width: 46px;
+	height: 46px;
 }
 
-img.icon-custom2{
+.icon-custom2 {
 	width: 81px;
+}
+
+.icon {
+	height: 46px !important;
+	font-size: 2em !important;
+	margin: 0  !important;
 }
 
 @media (min-width: 768px) {
