@@ -5956,10 +5956,10 @@ ul.socials.list-inline {
 	width: 81px;
 }
 
-.icon {
+#features-list .icon {
 	height: 46px !important;
 	font-size: 2em !important;
-	margin: 0  !important;
+	margin: 0 !important;
 }
 
 @media (min-width: 768px) {
