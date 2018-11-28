@@ -5906,6 +5906,10 @@ input {
 	color: #39c8b7;
 }
 
+#feedback .testimonial.align-center.clearfix blockquote img {
+	width: 100%;
+}
+
 #feedback-controls {
 	background-color: #39c8b7;
 	color: #c39a4b;
@@ -5923,10 +5927,6 @@ input {
 
 #feedback-controls .img-circle {
 	background-color: white;
-}
-
-#feedback-controls .testimonial.align-center.clearfix img {
-	width: 100%;
 }
 
 #guarantee {
