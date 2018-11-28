@@ -5923,6 +5923,9 @@ input {
 
 #feedback-controls .img-circle {
 	background-color: white;
+}
+
+#feedback-controls .testimonial.align-center.clearfix img {
 	width: 100%;
 }
 
