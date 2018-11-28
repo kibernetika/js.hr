@@ -5923,6 +5923,7 @@ input {
 
 #feedback-controls .img-circle {
 	background-color: white;
+	width: 100%;
 }
 
 #guarantee {
