@@ -5908,6 +5908,7 @@ input {
 
 #feedback .testimonial.align-center.clearfix blockquote img {
 	width: 100%;
+	max-width: 500px;
 }
 
 #feedback-controls {
