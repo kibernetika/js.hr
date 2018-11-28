@@ -5921,6 +5921,10 @@ input {
 	color: #c39a4b !important;
 }
 
+#feedback-controls .img-circle {
+	background-color: white;
+}
+
 #guarantee {
 	color: #c39a4b !important;
 }
